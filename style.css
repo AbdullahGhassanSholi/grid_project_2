@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #cccccc;
+}
+
+.page {
+  padding: 30px;
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(7, auto);
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.box-5 {
+  grid-row: span 2;
+  grid-column: span 3;
+  background-color: red;
+}
+
+.box-12 {
+  grid-row: span 2;
+  grid-column: span 4;
+  background-color: #dddddd;
+}
+.box-22 {
+  grid-column: span 4;
+  background-color: black;
+}
+
+.box {
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+.box1 {
+  background-color: #dddddd;
+  height: 50px;
+  box-shadow: 0 0 5px red;
+  transition: 1.5s;
+}
+
+.box1:hover {
+  background-color: #333333;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.box-6,
+.box-7 {
+  background-color: #dddddd;
+  box-shadow: 0 0 5px red;
+}
+
+button {
+  background-color: #333333;
+  padding: 10px 15px;
+  border-radius: 0;
+  color: white;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+button:hover {
+  background-color: #dddddd;
+  color: #333333;
+}
+
+.h1 {
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
+.h4 {
+  padding-top: 30px;
+}
+
+.box-6,
+.box-7 {
+  height: 300px;
+}
+
+.box3 {
+  background-color: #dddddd;
+  box-shadow: 0 0 5px red;
+  border-radius: 2px;
+  padding: 20px 40px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.im {
+  width: 600px;
+  height: 400px;
+}
+
+.box4 {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 0 5px red;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 20px;
+}
+.sub button {
+  width: 120px;
+}
+
+.box5 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  grid-column: span 4;
+}
+
+.img-shadow {
+  box-shadow: 0 0 5px red;
+}
+
+.box6 {
+  color: white;
+  background-color: #222222;
+}
+
+.box-5 {
+  background-image: url('https://free4kwallpapers.com/uploads/originals/2019/11/16/forest-road-dark-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sub-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: white;
+  gap: 30px;
+  padding: 50px;
+}
+
+.box-6,
+.box-7,
+.box-8,
+.box-9,
+.box-10,
+.box-11 {
+  transition: 1.5s;
+}
+
+.box-6:hover,
+.box-7:hover,
+.box-8:hover,
+.box-9:hover,
+.box-10:hover,
+.box-11:hover {
+  transform: scale(1.03);
+}
+
+.img-shadow-1 {
+  transform-style: preserve-3d;
+  background-color: yellow;
+}
